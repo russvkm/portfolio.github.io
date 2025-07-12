@@ -1,5 +1,5 @@
 export default function loadNav() {
-  fetch('/components/nav.html')
+  fetch('components/nav.html')
     .then(res => res.text())
     .then(html => {
       document.querySelector('#nav-container').innerHTML = html;
