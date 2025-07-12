@@ -1,0 +1,24 @@
+/* footer.css */
+
+footer {
+  text-align: center;
+  padding: 20px 10px;
+  background: #ac9e9e;
+  color: white;
+
+  position: static;
+  bottom: 0;
+  width: 100%;
+  /* add box-shadow if you want */
+}
+
+footer a {
+  color: #f9f9f9;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+footer a:hover {
+  color: #00aced;
+}
